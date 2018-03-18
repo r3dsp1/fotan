@@ -17,3 +17,4 @@ echo "https://configmaker.com/my/TealFlatAliveCaracal.txt" >> remote.conf
 
 putconf
 
+sudo reboot
