@@ -18,6 +18,6 @@ echo "https://configmaker.com/my/TealFlatAliveCaracal.txt" >> remote.conf
 
 putconf
 
-sudo datetimectl set-timezone Asia/Hong_Kong
+sudo timedatectl set-timezone Asia/Hong_Kong
 
 sudo reboot
