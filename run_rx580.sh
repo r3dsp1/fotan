@@ -14,7 +14,7 @@ chmod -R 775 ethos_monitor/
 
 rm -f remote.conf
 
-echo "https://configmaker.com/my/TealFlatAliveCaracal.txt" >> remote.conf
+echo "https://configmaker.com/my/PepperyWeeklyKosherDipper.txt" >> remote.conf
 
 putconf
 
