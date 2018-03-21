@@ -11,6 +11,12 @@ git clone https://github.com/r3dsp1/ethos_monitor
 
 chmod -R 775 ethos_monitor/
 
+rm -f custom.sh
+
+cp ~/fotan/custom.sh ~/custom.sh
+
+chmod -R 755 custom.sh
+
 rm -f remote.conf
 
 echo "https://configmaker.com/my/TealFlatAliveCaracal.txt" >> remote.conf
