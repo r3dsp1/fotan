@@ -14,7 +14,9 @@ chmod -R 775 ethos_monitor/
 
 rm -f custom.sh
 
-sudo cp ~/fotan/custom.sh ~/custom.sh
+cp ~/fotan/custom.sh ~/custom.sh
+
+chmod -R 755 custom.sh
 
 rm -f remote.conf
 
