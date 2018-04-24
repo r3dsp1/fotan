@@ -1,26 +1,18 @@
-sudo atiflash -p 0 asus_rx580_hynix_basic_tuned.rom
-sudo atiflash -p 1 asus_rx580_hynix_basic_tuned.rom
-sudo atiflash -p 2 asus_rx580_hynix_basic_tuned.rom
-sudo atiflash -p 3 asus_rx580_hynix_basic_tuned.rom
-sudo atiflash -p 4 asus_rx580_hynix_basic_tuned.rom
-sudo atiflash -p 5 asus_rx580_hynix_basic_tuned.rom
+sudo atiflash -p 0 asus_rx580_hynix_basic_tuned_xmr.rom
+sudo atiflash -p 1 asus_rx580_hynix_basic_tuned_xmr.rom
+sudo atiflash -p 2 asus_rx580_hynix_basic_tuned_xmr.rom
+sudo atiflash -p 3 asus_rx580_hynix_basic_tuned_xmr.rom
+sudo atiflash -p 4 asus_rx580_hynix_basic_tuned_xmr.rom
+sudo atiflash -p 5 asus_rx580_hynix_basic_tuned_xmr.rom
 
 
 cd
 
-git clone https://github.com/r3dsp1/ethos_monitor
-
-chmod -R 775 ethos_monitor/
-
-rm -f custom.sh
-
-cp ~/fotan/custom.sh ~/custom.sh
-
-chmod -R 755 custom.sh
+sudo update-miner claymore-xmr
 
 rm -f remote.conf
 
-echo "https://configmaker.com/my/RundownHelpfulDirectMagpie.txt" >> remote.conf
+echo "https://configmaker.com/my/WingedTestyAnyPrimate.txt" >> remote.conf
 
 putconf
 
