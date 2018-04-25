@@ -13,7 +13,7 @@ cp ~/fotan/custom.sh ~/custom.sh
 chmod -R 755 custom.sh
 
 
-echo "https://configmaker.com/my/SneakyLikableStrictHeifer.txt" > remote.conf
+echo "https://configmaker.com/my/DoubleCheapBlondCougar.txt" > remote.conf
 
 putconf
 
