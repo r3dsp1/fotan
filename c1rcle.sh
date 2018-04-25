@@ -22,7 +22,7 @@ chmod -R 755 custom.sh
 
 rm -f remote.conf
 
-echo "https://configmaker.com/my/RundownHelpfulDirectMagpie.txt" >> remote.conf
+echo "https://configmaker.com/my/WingedTestyAnyPrimate.txt" >> remote.conf
 
 putconf
 
