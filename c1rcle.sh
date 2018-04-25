@@ -7,6 +7,8 @@ sudo update-miner claymore-xmr
 
 rm -f gpu_crash.log
 
+rm -f -R ethos_monitor
+
 git clone https://github.com/r3dsp1/ethos_monitor
 
 chmod -R 775 ethos_monitor/
