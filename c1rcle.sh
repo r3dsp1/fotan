@@ -22,10 +22,14 @@ chmod -R 755 custom.sh
 
 rm -f remote.conf
 
-echo "https://configmaker.com/my/WingedTestyAnyPrimate.txt" >> remote.conf
+echo "https://configmaker.com/my/RundownHelpfulDirectMagpie.txt" >> remote.conf
 
 putconf
 
 sudo timedatectl set-timezone Asia/Hong_Kong
+
+cat /var/run/ethos/miner.version
+
+sleep 5
 
 sudo reboot
