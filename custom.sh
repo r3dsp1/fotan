@@ -1,7 +1,7 @@
 #!/bin/bash
 # /home/ethos/custom.sh
 
-clear-thermals                                                                                                                                 
+echo "1" > /opt/ethos/etc/autorebooted.file                                                                                                                                 
 ./ethos_monitor/miner.py
 
 exit 0
